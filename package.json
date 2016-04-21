@@ -1,0 +1,30 @@
+{
+  "name": "circle-intersection-area",
+  "version": "0.0.1",
+  "description": "Returns the vertices of multiple circle intersection",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fuzzyma/circle-intersection-area.git"
+  },
+  "keywords": [
+    "circle",
+    "intersection"
+  ],
+  "author": "Ulrich-Matthias Schäfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fuzzyma/circle-intersection-area/issues"
+  },
+  "homepage": "https://github.com/Fuzzyma/circle-intersection-area#readme",
+  "dependencies": {
+    "array-unique": "^0.2.1",
+    "circle2": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.8"
+  }
+}
