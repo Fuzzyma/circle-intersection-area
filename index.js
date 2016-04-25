@@ -50,6 +50,7 @@ var circleIntersectionArea = function () {
         // remember which vertices belong to which circle to avoid floating point errors later
         for (k = vertice.length; k--;) {
           verticeCircleMap[vertices.length + k] = [i, j]
+          vertice[k].circles = [circles[i], circles[j]]
         }
         // add vertices to array
         vertices = vertices.concat(vertice)
@@ -61,6 +62,7 @@ var circleIntersectionArea = function () {
   for (i = -1, k = vertices.length; i++ < k;) {
     for (j = i + 1; j < vertices.length; ++j) {
       if (vertices[i].equal(vertices[j])) {
+        verticeCircleMap.splice(j, 1)
         vertices.splice(j--, 1)
       }
     }
