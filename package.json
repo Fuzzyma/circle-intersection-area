@@ -1,6 +1,6 @@
 {
   "name": "circle-intersection-area",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Returns the vertices of multiple circle intersection",
   "main": "index.js",
   "scripts": {

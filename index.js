@@ -71,7 +71,7 @@ var circleIntersectionArea = function () {
   // filter out vertices which are NOT in all circles
   for (i = circles.length; i--;) {
     for (j = vertices.length; j--;) {
-      if (verticeCircleMap[j].indexOf(i) > -1) continue
+      // if (verticeCircleMap[j].indexOf(i) > -1) continue
       if (!circles[i].containsPoint(vertices[j])) {
         vertices.splice(j, 1)
       }
